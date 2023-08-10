@@ -1,0 +1,35 @@
+
+
+    rodas: inteiro
+	peso: real
+	pessoas: caractere
+	
+	inicio
+	
+	escreva ("Insira a quantidade de rodas: ")
+	leia (rodas)
+	
+	escreva ("Insira o peso do veículo: ")
+	leia (peso)
+	
+	escreva ("Insira a quantidade de pessoas no veículo: ")
+	leia (pessoas)
+	
+
+    se (rodas =2 )  E (rodas = 3) então
+    escreva (“A”)
+
+    senão se (rodas = 4) E (pessoas >=8) E (peso >=3500) então
+    escreva (“B”)
+
+	senão se (rodas >= 4) E (peso >=3500) E (peso <=6000) então
+    escreva (“C”)
+	
+	senão se (rodas >= 4) E (pessoas >=8) então
+    escreva (“D”)
+
+	senão (rodas >= 4) E (peso > 6000) então
+    escreva (“E”)
+
+
+   

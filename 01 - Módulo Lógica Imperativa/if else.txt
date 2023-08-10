@@ -1,0 +1,36 @@
+
+Var
+
+cliente, grupo, fumante, pet: inteiro
+
+Inicio
+
+escreva("Cliente é fumante: ")
+
+leia(cliente);
+
+escreva("Cliente possui pet ?: ")
+
+leia(pet);
+
+escreva("Total de pessoas: ")
+
+leia(grupo);
+
+	se (cliente == fumante e == pet) entao
+
+		escreva ("Será alocado para a área externa")
+
+senao
+
+	se (grupo > = 5) entao
+
+	escreva("Grupo será alocado no 1o. andar);
+
+senao
+
+    escreva("Grupo será alocado no térreo");
+
+fimse
+
+fimse

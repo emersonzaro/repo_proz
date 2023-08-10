@@ -1,0 +1,17 @@
+var
+
+contador: inteiro
+
+nome: caractere
+
+Inicio
+
+escreva ("inserir o nome da equipe: ")
+
+leia (nome)
+
+para contador <- 0 ate 5  faca
+
+Escreva (nome " + ", contador, " = ", nome + contador)
+
+fimpara

@@ -1,0 +1,33 @@
+comandos entrada(leia)  saída(escreva)
+
+Var
+
+Nome: caracter
+Endereco: caracter
+Cidade"caracter
+CPF: caracter
+RG: caracter
+
+Inicio
+
+escreva "Informe o seu nome: ";
+leia (nome);
+escreva("O nome informado é: ", nome);
+
+escreva "Informe o seu endereço: ";
+leia (Endereco);
+escreva("O endereço informado é: ", Endereco);
+
+escreva "Informe a sua cidade: ";
+leia (Cidade);
+escreva("A cidade informada é: ", Cidade);
+
+escreva "Informe o seu CPF ";
+leia (CPF);
+escreva("O CPF informado é: ", CPF);
+
+escreva "Informe o seu RG ";
+leia (RG);
+escreva("O CPF informado é: ", RG);
+
+Fimalgoritmo
