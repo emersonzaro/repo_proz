@@ -1,36 +1,38 @@
+Algoritmo "permissão_cliente"
+//Elabore um algoritmo que possa descobrir, através de perguntas e respostas, em
+//qual área de um restaurante uma pessoa ou grupo de pessoas precisa ser alocada.
+//O restaurante tem três áreas: térreo, 1ro andar, e área externa.
+//Clientes fumantes ou com animais de estimação precisam ser alocadas na área externa.
+//Grupos de 5 ou mais precisam ser alocados no 1º andar, pois não dá para juntar mesas no térreo.
+//Qualquer outro grupo de pessoas pode ser alocado no térreo.
 
 Var
 
-cliente, grupo, fumante, pet: inteiro
+cliente, grupo, pet, fumante: inteiro
+
 
 Inicio
 
-escreva("Cliente é fumante: ")
+escreva("Cliente é fumante: 1[S] ou 2[N]")
 
-leia(cliente);
+leia (fumante)
 
-escreva("Cliente possui pet ?: ")
+escreva("Cliente possui pet ?: 1[S] ou 2[N] ")
 
-leia(pet);
+leia (pet)
 
 escreva("Total de pessoas: ")
 
-leia(grupo);
+leia (grupo)
 
-	se (cliente == fumante e == pet) entao
+	se ((cliente = 1) OU (pet = 1)) entao
+  		escreva ("Será alocado para a área externa")
+   fimse
 
-		escreva ("Será alocado para a área externa")
-
-senao
-
-	se (grupo > = 5) entao
-
-	escreva("Grupo será alocado no 1o. andar);
-
-senao
-
-    escreva("Grupo será alocado no térreo");
-
-fimse
-
-fimse
+	se ((grupo >= 5) OU (cliente = 2) OU (pet = 2)) entao
+	   escreva("Grupo será alocado no 1o. andar")
+   senao
+      escreva("Grupo será alocado no térreo")
+   fimse
+   
+Fimalgoritmo
