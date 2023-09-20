@@ -50,3 +50,12 @@ section {
     box-sizing: border-box;
   }
 
+.fonte-01 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fonte-02 {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
